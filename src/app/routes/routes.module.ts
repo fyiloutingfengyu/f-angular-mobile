@@ -6,6 +6,7 @@ import { IndexComponent } from './index/index.component';
 import { LoginComponent } from './login/login.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { HighlightDirective } from '../shared/directives/highlight.directive';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { SecondComponent } from './second/second.component';
     FirstComponent,
     SecondComponent,
     IndexComponent,
-    LoginComponent
+    LoginComponent,
+    HighlightDirective
   ],
   entryComponents: []
 })

@@ -6,6 +6,10 @@
 </nav>
 <div (click)="testFun()"> {{ envObj.production }}</div>
 
+<!-- 属性指令 -->
+<p [appHighlight]="color">Highlight me!</p>
+
+<!-- ng-zorro-antd-mobile -->
 <List [className]="'date-picker-list'">
   <ListItem
     DatePicker
